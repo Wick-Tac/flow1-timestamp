@@ -7,3 +7,5 @@ Puedes encontrar el curso de introducción a NodeRed en el siguiente enlace
 
 https://edu.codigoiot.com/course/view.php?id=817
 
+Por: [Hugo Vargas](https://github.com/hugoescalpelo)
+
