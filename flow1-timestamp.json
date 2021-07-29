@@ -1,0 +1,54 @@
+[
+    {
+        "id": "eb31ccdc.9d51e8",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "3495c330.6344c4",
+        "type": "inject",
+        "z": "eb31ccdc.9d51e8",
+        "name": "Nodo timestamp",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 310,
+        "y": 160,
+        "wires": [
+            [
+                "aa956aff.64cb58"
+            ]
+        ]
+    },
+    {
+        "id": "aa956aff.64cb58",
+        "type": "debug",
+        "z": "eb31ccdc.9d51e8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 610,
+        "y": 160,
+        "wires": []
+    }
+]
