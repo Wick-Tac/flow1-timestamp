@@ -30,4 +30,5 @@ Para observar el funcionamiento de este proyecto deberás realizar lo siguiente.
 Podrás observar que cada segundo se manda el valor del timestamp del sistema.
 
 Por: [Hugo Vargas](https://github.com/hugoescalpelo)
+.
 
